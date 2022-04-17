@@ -24,10 +24,11 @@ button {
     width: fit-content;
     padding: 0;
     cursor: pointer;
+    margin-left: 20px;
 }
 
 .selectedButton {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid lightgray;
 }
 
 .percentChange,

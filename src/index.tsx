@@ -7,6 +7,7 @@ type ChartProps = {
     width: number;
     height: number;
     data: ChartData;
+    
     children?: (headerData: DynamicHeaderData) => React.ReactNode;
 };
 
