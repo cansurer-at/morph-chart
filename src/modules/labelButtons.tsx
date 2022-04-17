@@ -24,7 +24,7 @@ export const LabelButtons: React.FC<LabelButtonsProps> = ({
                                     ? {
                                           borderBottomWidth: 3,
                                           borderColor:
-                                              chartModel.data.graphColor,
+                                              chartModel.data.buttonColor,
                                           borderStyle: "solid"
                                       }
                                     : {}

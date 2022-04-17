@@ -14,7 +14,6 @@
 }
 
 button {
-    margin-right: 20px;
     border: 0px;
     background: none;
     box-shadow: none;
@@ -24,7 +23,11 @@ button {
     width: fit-content;
     padding: 0;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 20px !important;
+}
+
+.selectedButton {
+    border-bottom: 3px solid black;
 }
 
 .percentChange,
