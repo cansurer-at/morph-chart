@@ -28,6 +28,7 @@ export default class DataLoader {
     chartData: DataPoints[];
     title?: string;
     graphColor: string;
+    buttonColor?: string;
     header: HeaderConfig;
     cursor: {
         display: boolean;
@@ -46,6 +47,7 @@ export default class DataLoader {
         chartData,
         title = undefined,
         graphColor = "black",
+        buttonColor = "black",
         header = defaultHeader,
         cursor = defaultCursor,
         currentValueDisplayPrefix = "",
@@ -56,6 +58,7 @@ export default class DataLoader {
             chartData,
             title,
             graphColor,
+            buttonColor,
             header,
             cursor,
             currentValueDisplayPrefix,
@@ -66,6 +69,7 @@ export default class DataLoader {
         this.chartData = chartData;
         this.title = title;
         this.graphColor = graphColor;
+        this.buttonColor = buttonColor;
         this.header = header;
         this.cursor = cursor;
         this.currentValueDisplayPrefix = currentValueDisplayPrefix;

@@ -15,6 +15,7 @@ export type ChartData = {
     // e.g. ticker
     title?: string;
     graphColor?: string;
+    buttonColor?: string;
     header?: {
         currentValue: {
             display: boolean;
