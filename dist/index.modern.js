@@ -743,7 +743,7 @@ var ChartModel = function ChartModel(_data, _width, _height, _state) {
   this.parsedPath = parse(this.pathData.path);
 };
 
-var styles = {"chartContainer":"_3XvYA","graph":"_gypY7","buttonContainer":"_tWHtY","selectedButton":"_3m-aD","percentChange":"_1mSO8","label":"_3sXmF","title":"_2KezC","dpValue":"_1USMk"};
+var styles = {"chartContainer":"_3XvYA","graph":"_gypY7","buttonContainer":"_tWHtY","percentChange":"_1mSO8","label":"_3sXmF","title":"_2KezC","dpValue":"_1USMk"};
 
 var Header = function Header(_ref) {
   var headerConfig = _ref.headerConfig,

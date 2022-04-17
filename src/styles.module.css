@@ -27,10 +27,6 @@ button {
     margin-left: 20px;
 }
 
-.selectedButton {
-    border-bottom: 3px solid lightgray;
-}
-
 .percentChange,
 .label {
     padding-top: 2px;
